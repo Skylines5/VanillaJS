@@ -1,0 +1,44 @@
+<!-- Made at 150% zoom half open window. Media query
+     needed for fully operational -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="note.css">
+</head>
+<body>
+
+    <div id="addNote" class="addNote">
+        <h1 class="header header--h1">Note</h1>
+        <textarea name="" class="textarea textarea--main" id="mainTextarea" cols="30" rows="10"></textarea>
+        <button id="addBtn" class="addBtn">Add</button>
+
+    </div>
+
+    <div id="addedNoteContainer" class="addedNoteContainer">
+        <!--
+        <div class="addedNote">
+            <h3 class="header header--h3">Note</h3>
+            <textarea name="" class="textarea textarea--added" cols="30" rows="10"></textarea>
+            <button id="editBtn" class="editBtn">Edit</button>
+            <button id="deleteBtn" class="deleteBtn">Delete</button>
+        </div>
+        -->
+    </div>
+
+    <div id="popUp" class="popup">
+        <div class="header-popup">
+           <div class="title">Note</div>
+           <button id=btnPopUpDlt class="popupDltBtn">&times;</button>
+        </div>
+        <div class="textInPopup"></div>
+    </div>
+     <div id="overlay"></div>
+
+</body>
+<script src="note.js"></script>
+</html>
